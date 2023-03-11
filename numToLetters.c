@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <conio.h>
 #include <string.h>
 
 char *numToLetter(int num);
@@ -13,6 +14,7 @@ void main()
     strcpy(res, numToLetter(num));
 
     printf("%s", res);
+    getch();
 }
 
 char *numToLetter(int num)
